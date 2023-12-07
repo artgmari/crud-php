@@ -27,7 +27,7 @@
             <div class="col-sm-12">
             <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">Data Table</strong>
+                                <strong class="card-title">Tabela de clientes</strong>
                             </div>
                             <div class="card-body">
                                 <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
@@ -36,7 +36,7 @@
                                             <th>ID</th>
                                             <th>NOME</th>
                                             <th>EMAIL</th>
-                                            <th>CIDADE</th>
+                                            <th>PRODUTOS</th>
                                             <th>AÇÕES</th>
                                         </tr>
                                     </thead>

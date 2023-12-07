@@ -48,18 +48,28 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control" name="senha">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button id="btn-show-sweetalert">Login</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
-
+    <script src="js/sweetalert.js"> </script>
+<script>
+  const btnShowAlert =  document.querySelector('#btn-show-sweetalert');
+  btnShowAlert.addEventListener('click',function(){
+    Swal.fire({
+  title: "Muito bem!",
+  text: "Login feito com sucesso! GG MEU MANO!!",
+  icon: "success"
+});
+  })
+</script>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1>Bem vindo ao Exchange  Vava</h1>
         <p>Seja bem vindo a loja de troca de itens de Valorant! A melhor loja e recomendada pelos os melhores jogadores de Valorant</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Faça o seu cadastro já &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" src="#s" role="button">Faça o seu cadastro já &raquo;</a></p>
       </div>
     </div>
 
@@ -69,26 +79,27 @@
         <div class="col-md-4">
           <h2>Skins</h2>
           <img src="css/img/skins.png" alt="Trulli" width="300" height="155">
-          <p>Se você é apaixonado por Valorant e busca personalizar sua experiência no jogo, a Exchange Vava é o lugar ideal. Essa loja online oferece uma plataforma segura e intuitiva para trocar skins, sprays e outros itens exclusivos do Valorant. Com uma ampla variedade de opções e um sistema confiável de avaliações entre usuários, a Exchange Vava torna fácil encontrar e trocar itens para aprimorar seu arsenal no jogo. Não perca a chance de explorar essa comunidade vibrante e expandir sua coleção de itens em Valorant!</p>
+          <p>A Exchange Vava é a solução perfeita para jogadores de Valorant que buscam renovar seu arsenal. Troque suas skins com facilidade e segurança, dando um novo visual às suas armas favoritas. Experimente a diversidade de skins na Exchange Vava hoje mesmo!</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>Venda de Conta</h2>
           <img src="css/img/contasdvava.jpg" alt="Trulli" width="300" height="155">
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>A compra de contas na Exchange Vava é uma maneira confiável e conveniente de adquirir novas contas para Valorant. Com um processo seguro e transparente, oferecemos uma variedade de contas verificadas e prontas para uso imediato. Encontre a conta perfeita para você e mergulhe no jogo sem complicações na Exchange Vava. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Compra de Valorant Points</h2>
+          <img src="css/img/valorant points.jpg" alt="Trulli" width="300" height="155">
+          <p>Os Valorant Points são a chave para desbloquear o melhor do Valorant. Com os VP da Exchange Vava, você pode ampliar seu arsenal com skins exclusivas, agentes especiais e outros itens premium. Adquira Valorant Points de forma simples e segura na Exchange Vava e eleve sua experiência no jogo para um novo patamar.</p>
+          <p><a class="btn btn-default" href="#" role="button">Veja mais detales &raquo;</a></p>
         </div>
       </div>
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2015</p>
+        <p>&copy; Desenvolvido por Arthur Gaspar Mari</p>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

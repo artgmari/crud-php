@@ -35,7 +35,7 @@
                             <input type="email" class="form-control" id="email_cliente" name="email_cliente">
                         </div>
                         <div class="mb-3">
-                            <label for="cidade" class="form-label">Cidade do cliente</label>
+                            <label for="cidade" class="form-label">Produto do cliente</label>
                             <input type="text" class="form-control" id="cidade" name="cidade">
                         </div>                        
                         <button type="submit" class="btn btn-primary">Cadastrar</button>
