@@ -22,7 +22,7 @@
                             <th>ID</th>
                             <th>Nome</th>
                             <th>Email</th>
-                            <th>Cidade</th>
+                            <th>Produto</th>
                         </tr>
                     </thead>
                     <tbody>";

@@ -12,7 +12,7 @@
         <div class="content mt-3">
             <div class="col-sm-12">
                 <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                    <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
+                    <span class="badge badge-pill badge-success">Sucesso</span> Voce entrou com sucesso na sua conta na Exchange Vava. Pesquise o seu Clinte
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -22,7 +22,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header">
-                        <strong class="card-title">Data Table</strong>
+                        <strong class="card-title">Tabela de Cliente</strong>
                     </div>
                     <div class="card-body">
                         <div class="page-title">

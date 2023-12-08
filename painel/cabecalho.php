@@ -9,11 +9,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Painel Administrativo</title>
+        <title>Painel Compras</title>
         <meta name="description" content="Sufee Admin - HTML5 Admin Template">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-icon.png">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="faviconsd2.png">
         <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">    
@@ -33,13 +33,13 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
-                    <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./"><img src="images/valorant-logo.png" alt="Logo"></a>
+                    <a class="navbar-brand hidden" href="./"><img src="images/vava2.png" alt="Logo"></a>
                 </div>
                 <div id="main-menu" class="main-menu collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active">
-                            <a href="index.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                            <a href="index.php"> <i class="menu-icon fa fa-dashboard"></i>TABELA </a>
                         </li>
                         <h3 class="menu-title">Tarefas</h3><!-- /.menu-title -->
                         <li>
@@ -71,7 +71,7 @@
                     <div class="col-sm-5">
                         <div class="user-area dropdown float-right">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="user-avatar rounded-circle" src="images/admin.jpg" alt="User Avatar">
+                                <img class="user-avatar rounded-circle" src="images/kjvava2.png" alt="User Avatar">
                             </a>
                             <div class="user-menu dropdown-menu">
                                 <a class="nav-link" href="#"><i class="fa fa-user"></i> Meu Perfil</a>
